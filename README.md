@@ -13,9 +13,6 @@ A comprehensive solution for managing and optimizing the growth of rice crops th
   - Water Supply
 - **User-Friendly Interface**: Easy-to-use UI for monitoring and controlling growth factors.
 
-## Recommended File Structure
-
-rice-growth-optimizer/ ├── src/ │ ├── components/ │ │ ├── SystemStatus.jsx │ │ ├── ActionButtons.jsx │ │ ├── EnvironmentControls/ │ │ │ ├── index.jsx │ │ │ ├── TemperatureControl.jsx │ │ │ ├── HumidityControl.jsx │ │ │ ├── CO2Control.jsx │ │ │ ├── LightControl.jsx │ │ │ ├── SoilMoistureControl.jsx │ │ │ └── WaterSupplyControl.jsx │ │ └── RiceGrowthOptimizer.jsx │ ├── context/ │ │ └── OptimizerContext.jsx │ ├── App.js │ └── index.js
 
 
 ## Implementation Steps
@@ -26,3 +23,6 @@ rice-growth-optimizer/ ├── src/ │ ├── components/ │ │ ├─�
 npx create-react-app rice-growth-optimizer
 cd rice-growth-optimizer
 
+npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
+
+npm run start
